@@ -21,7 +21,6 @@ export default function RootLayout({
 			className={`${inter.className} h-full scroll-smooth antialiased`}
 		>
 			<body className='flex h-full flex-col'>
-				{children}
 				<Provider>
 					<main className='grow'>{children}</main>
 				</Provider>
